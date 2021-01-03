@@ -12,11 +12,10 @@ local server = require("server");
 
 
 -- dialogs
-
 actions.quitdialog = function ()
-      server.update({ 
-        type = "dialog", 
-        text = "Are you sure you want to quit Anki?", 
+      server.update({
+        type = "dialog",
+        text = "Are you sure you want to quit Anki?",
         children = {
             { type = "button", text = "No" },
             { type = "button", text = "Yes",  ontap = "quit" }
@@ -25,6 +24,9 @@ actions.quitdialog = function ()
 end
 
 -- actions
+actions.hold_false = function()
+  actions.rating_1();
+end
 
 actions.quit = function()
     kb.stroke("cmd", "q");

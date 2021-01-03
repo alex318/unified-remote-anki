@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
   <row weight="4">
-    <button text="Answer | Confirm" ontap="show_answer"/>
+    <touch id="touchfield" text="Answer | true/false" ontap="show_answer" onhold="hold_false" />
   </row>
   <row>
     <button color="red" text="1" onTap="rating_1" />

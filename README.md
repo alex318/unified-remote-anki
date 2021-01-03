@@ -12,7 +12,7 @@ List of buttons, from top to bottom:
 
 *First row*
 
-* Answer/Confirm selection
+* Answer and true/false button: Tapping will reveal the answer and tapping again will mark the answer as true. Holding the button will mark the answer as false.
 
 *Second row*
 
@@ -28,7 +28,7 @@ List of buttons, from top to bottom:
 
 ## Changelog
 
-* 2020-01-03: Changed to simplified Layout with less but bigger buttons 
+* 2020-01-03: Changed to simplified Layout with less but bigger buttons. Holding on the big button will mark the answer as false. 
 * 2018-09-04: Added note on Anki 2.1 support
 * 2016-05-14: Added support for OS X (thanks to @luminousspice!)
 * 2016-05-08: Added more buttons; Restructured remote; Remote now asks for confirmation before exiting
