@@ -4,7 +4,7 @@ A simple [custom remote](https://www.unifiedremote.com/) for the spaced repetiti
 
 ## Screenshot
 
-<img src="https://raw.githubusercontent.com/Glutanimate/unified-remote-anki/master/screen.png">
+<img src="https://raw.githubusercontent.com/alex318/unified-remote-anki/master/screen.jpg">
 
 ## Features
 
@@ -12,50 +12,23 @@ List of buttons, from top to bottom:
 
 *First row*
 
-* Launch Anki
-* Go to Deck Overview
-* Quit Anki (with confirmation dialog)
+* Answer/Confirm selection
 
 *Second row*
 
-* Backspace
-* Select deck
-* Escape
+* Apply rating: 1/2/3/4
 
 *Third row*
 
-The following features require the [Zoom](https://ankiweb.net/shared/info/1956318463) and [Toggle Full Screen](https://ankiweb.net/shared/info/1703043345) add-ons for Anki to be installed.
-
-* Reset zoom
-* Zoom in
-* Zoom out
-* Go fullscreen
-
-*Fourth row*
-
-* Move up
-* Answer/Confirm selection
-* Move down
-
-*Fifth row*
-
-* Apply rating: 1/2/3/4
-
-*Sixth row*
-
-* Repeat media playback
-* Mark card
-* Suspend note
 * Undo
 
 ## Requirements
 
 * Anki 2.0.x or 2.1.x
-    - Please note that – due to key assignment changes – some of the features in this remote might not work with Anki 2.1. Unfortunately there is no good way to detect which version of Anki is running. As soon as 2.1 overtakes 2.0 in general use I will be updating the remote to reflect the new hotkey assignments.
-* [Zoom](https://ankiweb.net/shared/info/1956318463) and [Toggle Full Screen](https://ankiweb.net/shared/info/1703043345) add-ons for Anki (optional)
 
 ## Changelog
 
+* 2020-01-03: Changed to simplified Layout with less but bigger buttons 
 * 2018-09-04: Added note on Anki 2.1 support
 * 2016-05-14: Added support for OS X (thanks to @luminousspice!)
 * 2016-05-08: Added more buttons; Restructured remote; Remote now asks for confirmation before exiting
