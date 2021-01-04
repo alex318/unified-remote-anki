@@ -26,6 +26,9 @@ List of buttons, from top to bottom:
 
 * Anki 2.0.x or 2.1.x
 
+## Installation
+Download the zip file on this github page and follow the instructions on the [Unified Remote website](https://www.unifiedremote.com/tutorials/how-to-install-a-custom-remote).
+
 ## Changelog
 
 * 2020-01-03: Changed to simplified Layout with less but bigger buttons. Holding on the big button will mark the answer as false. 
